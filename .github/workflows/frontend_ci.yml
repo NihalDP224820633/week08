@@ -13,7 +13,7 @@ on:
 
 env:
   # e.g. nihal08.azurecr.io (store this in repo secrets as AZURE_CONTAINER_REGISTRY)
-  ACR_LOGIN_SERVER: ${{ secrets.AZURE_CONTAINER_REGISTRY }}
+  ACR_LOGIN_SERVER: nihal08.azurecr.io
   IMAGE_TAG: ${{ github.sha }}-${{ github.run_id }}
 
 jobs:
